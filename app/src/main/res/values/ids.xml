@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="keluar_button" type="id" />
+    <item name="healthy_button" type="id" />
+    <item name="ambil_gambar_button" type="id" />
+    <item name="penanganan_text_view" type="id" />
+    <item name="waktu_pengambilan_text_view" type="id" />
+    <item name="textView" type="id" />
+    <item name="akurasi_text_view" type="id" />
+    <item name="capture_button" type="id" />
+</resources>

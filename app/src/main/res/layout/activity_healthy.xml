@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="back"
+            android:paddingRight="14dp"
+            android:onClick="onBackPressed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthy Leaf"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <!-- Image -->
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="370dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/healthy" />
+
+    <!-- Definisi -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="Definisi"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Pengertian Penyakit Healthy Leaf -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Healthy leaf atau daun padi yang sehat memiliki ciri-ciri seperti daun yang berwarna hijau cerah, tidak ada bercak atau gejala penyakit, struktur daun yang utuh, dan tidak adanya tanda-tanda kerusakan fisik. Daun padi yang sehat berperan penting dalam proses fotosintesis, menyerap energi matahari untuk menghasilkan makanan tanaman. Selain itu, daun yang sehat juga melindungi tanaman dari serangan penyakit dan hama. Oleh karena itu, menjaga kebersihan dan kesehatan daun padi sangat penting untuk pertumbuhan dan produktivitas tanaman."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:justificationMode="inter_word"
+        android:gravity="top|start|end" />
+
+</LinearLayout>

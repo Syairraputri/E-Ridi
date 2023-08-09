@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">E-Ridi</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="not_yet_registered_sign_up">Not yet registered? Sign Up</string>
+    <string name="e_ridi">E-Ridi</string>
+    <string name="cek_padiku">Cek Padiku</string>
+    <string name="background_image_for_welcome_message">Background Image for Welcome Message</string>
+    <string name="info_penyakit">Info Penyakit</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="keluar">Keluar</string>
+</resources>

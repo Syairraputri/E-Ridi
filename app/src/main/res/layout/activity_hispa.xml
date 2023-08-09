@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="back"
+            android:paddingRight="14dp"
+            android:onClick="onBackPressed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hispa"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <!-- Image -->
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="370dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hispa41" />
+
+    <!-- Definisi -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:text="Definisi"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Pengertian Penyakit Hispa -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Hispa pada daun padi merupakan salah satu penyakit yang menyerang tanaman padi. Gejala penyakit Hispa pada tanaman padi dapat dilihat pada daun muda yang terinfeksi. Daun muda yang terinfeksi biasanya memiliki bercak-bercak putih yang berubah menjadi kekuningan hingga cokelat keabuan. Bercak tersebut juga bisa bergabung membentuk pola yang lebih besar, sehingga menyebabkan daun menguning dan kering. Selain itu, pada bagian bawah daun dapat terlihat benang-benang putih yang menyebar. Jika terinfeksi pada tahap vegetatif, maka tanaman padi akan terhambat pertumbuhannya dan menghasilkan hasil panen yang rendah. Sedangkan jika terinfeksi pada tahap generatif, maka dapat menyebabkan gabah rusak dan menghasilkan beras berkualitas rendah."
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"
+        android:textSize="14sp" />
+
+</LinearLayout>

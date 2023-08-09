@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:contentDescription="back"
+            android:onClick="onBackPressed"
+            android:paddingRight="14dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Cara Keluar E-Ridi"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:background="@drawable/background"
+            android:text="Untuk keluar dari aplikasi E-Ridi, pengguna dapat mengklik atau menekan tombol Keluar yang terletak di menu utama. Setelah itu, akan muncul konfirmasi untuk keluar dari aplikasi dengan pilihan Ya atau Tidak. Jika pengguna ingin benar-benar keluar dari aplikasi, maka pengguna dapat memilih Ya. Namun, jika pengguna ingin tetap berada di aplikasi, maka pengguna dapat memilih Tidak."
+            android:textAlignment="viewStart"
+            android:justificationMode="inter_word"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

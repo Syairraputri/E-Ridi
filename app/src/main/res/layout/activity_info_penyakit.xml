@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="back"
+            android:paddingRight="14dp"
+            android:onClick="onBackPressed" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info Tanaman Padi"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <Button
+            android:id="@+id/bacterial_leaf_blight_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bacterial Leaf Blight"
+            android:layout_marginBottom="18dp"
+            android:onClick="onBacterialLeafBlightClicked"/>
+
+        <Button
+            android:id="@+id/brown_spot_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brown Spot"
+            android:layout_marginBottom="18dp"
+            android:onClick="onBrownSpotClicked"/>
+
+        <Button
+            android:id="@+id/hispa_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hispa"
+            android:layout_marginBottom="18dp"
+            android:onClick="onhispaClicked"/>
+
+        <Button
+            android:id="@+id/leaf_blast_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leaf Blast"
+            android:layout_marginBottom="18dp"
+            android:onClick="onLeafBlastClicked"/>
+
+        <Button
+            android:id="@+id/healthy_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Healthy Leaf"
+            android:layout_marginBottom="18dp"
+            android:onClick="onLeafBlastClicked"/>
+
+    </LinearLayout>
+
+</LinearLayout>

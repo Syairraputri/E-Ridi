@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="back"
+            android:paddingEnd="14dp"
+            android:onClick="onBackPressed"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bantuan"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <Button
+            android:id="@+id/cek_padiku_button"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18sp"
+            android:text="Apa itu menu cek padiku?"
+            android:textAlignment="viewStart"
+            android:onClick="onButtonClicked"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/info_penyakit_button"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18sp"
+            android:text="Apa itu menu info tanaman padi?"
+            android:textAlignment="viewStart"
+            android:onClick="onButtonClicked"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/bantuan_button"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18sp"
+            android:text="Apa itu menu bantuan?"
+            android:textAlignment="viewStart"
+            android:onClick="onButtonClicked"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/keluar_button"
+            android:layout_width="377dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18sp"
+            android:text="Bagaimana cara keluar E-Ridi?"
+            android:textAlignment="viewStart"
+            android:onClick="onButtonClicked"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>

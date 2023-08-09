@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:contentDescription="back"
+            android:onClick="onBackPressed"
+            android:paddingRight="14dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Menu Bantuan"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:background="@drawable/background"
+            android:text="Menu bantuan pada aplikasi E-Ridi merupakan fitur yang disediakan untuk membantu pengguna dalam memahami informasi tentang fungsi masing-masing menu yang tersedia di dalam aplikasi, serta memberikan panduan mengenai cara keluar dari aplikasi E-Ridi."
+            android:textAlignment="viewStart"
+            android:justificationMode="inter_word"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

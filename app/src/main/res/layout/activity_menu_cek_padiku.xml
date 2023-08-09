@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="horizontal"
+        android:padding="14dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:contentDescription="back"
+            android:onClick="onBackPressed"
+            android:paddingRight="14dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Menu Cek Padiku"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:background="@drawable/background"
+            android:text="Menu Cek Padiku pada aplikasi E-Ridi memanfaatkan model TFLite untuk mendeteksi penyakit pada tanaman padi. Dengan mengambil gambar, fitur ini memberikan informasi tentang jenis penyakit yang terdeteksi dan nilai akurasi deteksinya. Petani dapat dengan mudah mengambil tindakan yang tepat untuk mencegah dan mengobati penyakit pada tanaman padi berdasarkan informasi yang diberikan. Menu ini memberikan solusi efektif dan efisien untuk memantau kondisi tanaman padi dan meningkatkan hasil panen."
+            android:textAlignment="viewStart"
+            android:justificationMode="inter_word"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
